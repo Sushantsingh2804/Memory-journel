@@ -1,0 +1,363 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+nav{
+  position: sticky;
+  top: 0;
+  width: 100%;
+  min-height: 10vh;
+  background: #ff9800;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 2px solid black;
+  color: white;
+  z-index: 10;
+}
+
+.nav-header{
+
+}
+.nav-links{
+  width: 50%;
+}
+.nav-links ul{
+  display: flex;
+ justify-content: space-around;
+ list-style: none;
+
+}
+.nav-links a{
+  text-decoration: none;
+  color: white;
+
+}
+.nav-links a:hover{
+  color: black;
+  padding: 5px 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.hero{
+  height: 90vh;
+  width: 100%;
+  background-image: url('hero.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.hero-text{
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(255, 152, 0,0.6) 50% , rgba(255,255, 255, 0.0));
+  padding-left: 140px;
+  padding-right: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.hero-text h1{
+  font-size: 2.5rem;
+}
+
+.hero-text p{
+  font-size: 1.3rem;
+  color: white;
+  text-shadow: 0px 2px 10px white;
+
+}
+
+.hero-text a{
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 20px;
+  color: black;
+  border: 2px solid black;
+  border-radius: 20px;
+  font-size: 1.3rem;
+}
+
+.hero-text a:hover{
+  color: white;
+  background: #ff9800;
+  border: 2px solid #ff9800;
+
+}
+
+.info-bar{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.info-bar a{
+  text-decoration: none;
+}
+
+.box{
+  width: 400px;
+  height: 500px;
+  margin: 30px;
+  box-shadow: 5px 5px 10px #888;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.delhi{
+  background-image: url("delhi.jpg");
+}
+.ladakh{
+  background-image: url('ladhak.jpg');
+}
+
+.jaipur{
+  background-image: url('jaipur.jpg');
+}
+
+
+.agra{
+  background-image: url('agra.jpg');
+}
+
+.goa{
+  background-image: url('goa.jpg');
+}
+
+.kedarnath{
+  background-image: url('kedarnath.jpg');
+}
+#text{
+  text-align: center;
+  color: #ff9800;
+  font-size: 2.6rem;
+  width: 100%;
+  background: linear-gradient(to top, rgba(255, 255, 255,0.9) 50% , rgba(255,255, 255, 0.4));
+
+}
+
+
+
+.box:hover{
+  box-shadow: none;
+  align-items: center;
+  background: #fff;
+}
+
+
+.outter{
+  width: 100%;
+  height: auto;
+  background: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.inner-image{
+  flex: 1 1 30rem;
+  min-height: 60vh;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+
+}
+
+.inner-text{
+  flex: 1 1 30rem;
+  padding: 30px;
+  color: #625c4a;
+  background-color: #ffe3ba;
+  min-height: 60vh;
+}
+
+.inner-text h1{
+  text-align: center;
+}
+.delhi2{
+  background-image: url("delhi2.jpg");
+}
+.ladhak2{
+  background-image: url("ladhak2.jpg");
+}
+
+.agra2{
+  background-image: url("agra2.jpg");
+}
+
+.goa2{
+  background-image: url("goa2.jpg");
+}
+
+.jaipur2{
+  background-image: url("jaipur2.jpg");
+}
+
+.kedarnath2{
+  background-image: url("kedarnath2.jpg");
+}
+
+.about-section{
+  width: 100%;
+  min-height: 90vh;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("about-section.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-text{
+  width: 60%;
+  min-height: 85vh;
+  background: rgba(255, 255, 255,0.7);
+  border-radius: 20px;
+  color: #ff9800;
+  text-align: center;
+  padding: 50px;
+
+  display: flex;
+ flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-text p{
+  font-size: 20px;
+margin-top: 30px;
+font-weight: bold;
+color: black;
+
+}
+
+.contact-section{
+  width: 100%;
+  min-height: 90vh;
+  background: ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+form{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  background: #dfdfdf;
+  padding: 50px;
+  text-align: center;
+  color: black;
+  border-radius: 10px;
+}
+
+form #input{
+margin-top: 20px;
+border-radius: 10px;
+text-align: center;
+padding: 10px;
+box-shadow: None;
+border: None;
+}
+
+#Submit-button{
+  margin-top: 20px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  box-shadow: None;
+  border: None;
+}
+
+
+
+
+footer{
+  color: white;
+  font-weight: bolder;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+  background: rgba(255, 152, 0);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+
+@media screen and (max-width:786px) {
+html{
+  font-size: 60%;
+}
+
+nav{
+  width: 100vw;
+  flex-direction: column;
+}
+
+.hero-text{
+  width: 100vw;
+  height: 100%;
+  background:rgba(255, 255, 255,0.5);
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-text p{
+  font-weight: bold;
+  color: #8b0d13;
+  text-shadow:None;
+
+}
+.about-text{
+  width: 100%;
+  min-height: 90vh;
+  padding: 10px;
+  border-radius: 0px;
+
+}
+
+.info-bar{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-around;
+
+}
+
+
+
+.box{
+  width: 90vw;
+  height: 300px;
+  margin-top:0px;
+  }
+
+
+form{
+  width: 100vw;
+  border-radius: 0px;
+}
+
+}
