@@ -247,6 +247,11 @@ color: black;
 
 }
 
+#plasmapal{
+  text-decoration: none;
+  color: blue;
+}
+
 .contact-section{
   width: 100%;
   min-height: 90vh;
@@ -286,6 +291,11 @@ border: None;
   border: None;
 }
 
+#Submit-button:hover{
+  background-color: #ff9800;
+  color: white;
+  border: 1px solid red;
+}
 
 
 
@@ -334,6 +344,7 @@ nav{
   border-radius: 0px;
 
 }
+
 
 .info-bar{
   width: 100%;
